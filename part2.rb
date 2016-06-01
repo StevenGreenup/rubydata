@@ -33,4 +33,4 @@ cheap = movies.select {|movie| movie[:budget] < 100}
 puts cheap.inspect
 puts " "
 leo = movies.select {|movie| movie[:stars].include? "Leonardo DiCaprio"}
-puts leo.inspect.chomp
+puts leo.inspect
